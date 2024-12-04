@@ -69,13 +69,14 @@ function createPortfolioFromJSON() {
     fetch("data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
+            console.log(data)
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" style="width:100%">
+                    <img class="card-img-top" src="./images/${item.image}" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
                         <p class="card-text">${item.text}</p>
@@ -85,6 +86,7 @@ function createPortfolioFromJSON() {
                     </div>
                 </div>
                 `;
+               
 
                 // Append the card to the current row
                 row.apendChild(card);
