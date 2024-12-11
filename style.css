@@ -21,6 +21,10 @@
 .navbarScroll.navbarDark {
     background-color: #5b5b5b;
 }
+.navbar-dark.navbar-nav .nav-link {
+    color: #fff;
+}
+
 
 /* hero background image */
 .bgimage {
