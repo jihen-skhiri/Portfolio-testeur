@@ -40,7 +40,7 @@ function createSkillsFromJSON() {
                 card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
-                            <img src="./images/${item.image}" />
+                            <img src="./images/${item.image}" alt="${item.alt}"/>
                             <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
@@ -69,14 +69,13 @@ function createPortfolioFromJSON() {
     fetch("data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="./images/${item.image}" style="width:100%">
+                    <img class="card-img-top" src="./images/${item.image}" style="width:100%" alt="${item.alt}">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
@@ -87,9 +86,9 @@ function createPortfolioFromJSON() {
                 </div>
                 `;
                
-
                 // Append the card to the current row
-                row.apendChild(card);
+                row.appendChild(card);
+             
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {

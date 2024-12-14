@@ -19,10 +19,18 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-image: linear-gradient(20deg, #000, #b0e2f2, #788b9f, #0d4c5f, #59d3f9);
+   
 }
-.navbar-dark.navbar-nav .nav-link {
+.fixed-top {
+    background-image: linear-gradient(50deg, #000, #b0e2f23b, #788b9f, #11282f69, #59d3f9);
+    height:80px;
+}
+
+.nav-link.nav-link {
+    font-weight: bold;
     color: #fff;
+    font-size: 18px;
 }
 
 
@@ -30,7 +38,7 @@
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/image1.jpg");
+    background: url("images/bg-img.webp");
     background-size: cover;
     position: relative;
 }
@@ -53,6 +61,7 @@
 /* about */
 .imageAboutPage {
     width: 100%;
+    height: 400px;
 }
 .imageAboutPage {
     border-radius: 50%;
@@ -63,6 +72,8 @@
 .skillsText.card {
     height: 350px;
     cursor: pointer;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(8, 212, 193, 0.87);
     
 }
 .skillsText img {
@@ -81,22 +92,26 @@
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon {
-    color: #008000;
+.card:hover  {
+    color:#2980b9
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #2980b9
 }
-
+.skillsIcon{
+    color: #73c6b6
+}
 /* portfolio */
 #portfolio p {
     text-align: center;
 }
-.portfolioContent.card {
-    height: 350px;
-    cursor: pointer;  
-    
+.portfolioContent {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(10, 118, 232, 0.46);
+    border-radius: 2.5rem !important;
 }
+
 .card-img-top img {
     width:100%;
     height: 150px;
@@ -110,7 +125,9 @@
     align-items: center;
 }
 .contactColumn i {
-    color: #198754;
+    color: #2874a6;
+    font-size: 50px;
+    padding:15px;
 }
 
 /* footer */
