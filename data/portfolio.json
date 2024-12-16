@@ -3,21 +3,36 @@
         "image": "Booki.webp",
         "title": "Booki",
         "alt": "image projet Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Découpage de la maquette du site d’une agence de voyage « Booki » avec l’outil Figma et l’intégration de la page d’accueil en responsive avec du HTML Et CSS..",
         "link": "#"
     },
-    {
-        "image": "image2.webp",
-        "title": "Mon Vieux grimoire",
-        "alt": "image projet grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    },
+    
     {
         "image": "Kasa.webp",
         "title": "Kasa",
         "alt": "image projet Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Une refonte totale du site de location immobilière « Kasa » pour passer à un stack complet en JavaScript avec NodeJS côté back-end, et React côté front-end. Initialiser l’application avec « Create React App » afin de créer les composants React pour implémenter le front du site. Puis installation du React Router pour créer les routes entres les différentes pages du site.",
+        "link": "https://github.com/jihen-skhiri/kasa.git"
+    },
+    {
+        "image": "Print-it.webp",
+        "title": "Print-it",
+        "alt": "image projet Print-it",
+        "text": "Débuter avec le langage javascript en dynamisant le site Internet statique d’une petite imprimerie familiale nommée Print it. Rendre un carrousel dynamique avec les EventListeners.",
+        "link": "https://jihen-skhiri.github.io/Print-it-JS-main/"
+    },
+    {
+        "image": "sophie-bluel.webp",
+        "title": "sophie-bluel",
+        "alt": "image projet sophie-bluel",
+        "text": "La création du site portfolio d’une architecte d’intérieur. On fait appel à l’API pour récupérer les données depuis le Backend pour afficher la galerie dans la page d’accueil en utilisant des filtres avec javascript. La création de la page de connexion pour l’administrateur et une modale qui permet l’ajoute ou la suppression des projets dynamiquement.",
+        "link": "https://github.com/jihen-skhiri/projetJS-OC.git"
+    },
+    {
+        "image": "EcoBlissBath.webp",
+        "alt": "image projet EcoBlissBath",
+        "title": "Eco Bliss Bath",
+        "text": "Automatisation des tests fonctionnels d’un site e-commerce « EcoBliss Bath » de vente des produits de beautés écoresponsables en ligne. Création des scripts d’automatisation en javascript à l’aide de l’outil Cypress. Rédaction du rapport de testing : le bilan de campagne de test el le rapport des incidents.  ",
+        "link": "https://github.com/jihen-skhiri/Projet10-Automatisation.git"
     }
 ]

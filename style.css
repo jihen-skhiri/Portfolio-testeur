@@ -41,6 +41,7 @@
     background: url("images/bg-img.webp");
     background-size: cover;
     position: relative;
+    opacity: 0.9;
 }
 /* text css above hero image*/
 .hero_title {
@@ -63,12 +64,17 @@
 
 /* about */
 .imageAboutPage {
-    width: 100%;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    margin-top: 1.5rem;
 }
 .imageAboutPage {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#about p {
+    margin-top: 1.5rem;
+    line-height:35px;
 }
 
 /* skills */
@@ -81,7 +87,7 @@
 }
 .skillsText img {
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: contain;
 }
 #skills p {
@@ -114,11 +120,31 @@
     box-shadow: 0 0 15px rgba(10, 118, 232, 0.46);
     border-radius: 2.5rem !important;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    background-color: #fff;
+    background-clip: border-box;
+}
 
-.card-img-top img {
-    width:100%;
-    height: 150px;
-    object-fit: contain;
+.card.portfolioContent {
+    height: 100%;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 220px;
+}
+
+.btn-success.btn-success {
+    background-color: #2874a6;
+    border-color: transparent;
+    font-weight: bold;
+}
+.btn-success:hover {
+    transform: scale(1.15);
+    background-color: #086d8d;
 }
 
 /* contact */
@@ -134,3 +160,4 @@
 }
 
 /* footer */
+
