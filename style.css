@@ -6,12 +6,19 @@
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
+    text-align: center;
 }
-#about h2,
-#skills h2,
-#portfolio h2,
-#contact h2 {
+#about h3,
+#skills h3,
+#portfolio h3,
+#contact h3 {
+    font-size: 45px;
     margin-bottom: 3rem;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,47,95,1) 35%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #contact {
     padding-bottom: 4rem;
