@@ -67,6 +67,7 @@
     transform: translate(-50%, -50%);
     color: white;
     
+    
 }
 
 /* about */
@@ -82,6 +83,7 @@
 #about p {
     margin-top: 1.5rem;
     line-height:35px;
+    text-align: justify;
 }
 
 /* skills */
@@ -99,6 +101,8 @@
 }
 #skills p {
     text-align: center;
+    
+    
 }
 .skillsIcon {
     font-size: 36px;

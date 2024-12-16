@@ -34,5 +34,17 @@
         "title": "Test",
         "alt": "image Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+    },
+    {
+        "image": "cypress.webp",
+        "title": "Cypress",
+        "alt": "logo cypress",
+        "text": "Création des scripts pour l'automatisation des tests fonctionnels et analyse des bugs"
+    },
+    {
+        "image": "swagger.webp",
+        "title": "Swagger",
+        "alt": "logo Swagger",
+        "text": "Le langage de description d'interface permettant de décrire des API exprimées à l'aide de JSON."
     }
 ]
