@@ -4,7 +4,7 @@
         "title": "Booki",
         "alt": "image projet Booki",
         "text": "Découpage de la maquette du site d’une agence de voyage « Booki » avec l’outil Figma et l’intégration de la page d’accueil en responsive avec du HTML Et CSS..",
-        "link": "#"
+        "link": "https://github.com/jihen-skhiri/Booki.git"
     },
     
     {
@@ -19,7 +19,7 @@
         "title": "Print-it",
         "alt": "image projet Print-it",
         "text": "Débuter avec le langage javascript en dynamisant le site Internet statique d’une petite imprimerie familiale nommée Print it. Rendre un carrousel dynamique avec les EventListeners.",
-        "link": "https://jihen-skhiri.github.io/Print-it-JS-main/"
+        "link": "https://github.com/jihen-skhiri/Print-it-JS-main.git"
     },
     {
         "image": "sophie-bluel.webp",
